@@ -1,32 +1,32 @@
-//INTERFACE
+// //INTERFACE
 
-interface UserType {
-  firstName: string;
-  lastName?: string;
-  readonly age: number;
-}
+// interface UserType {
+//   firstName: string;
+//   lastName?: string;
+//   readonly age: number;
+// }
 
-function logDetails(user: UserType) {
-  console.log(user.firstName + " " + user.lastName);
-  console.log("My age is " + user.age);
-}
+// function logDetails(user: UserType) {
+//   console.log(user.firstName + " " + user.lastName);
+//   console.log("My age is " + user.age);
+// }
 
-let user: UserType = {
-  firstName: "satyam",
-  //   lastName: "upadhyay",
-  age: 20,
-};
-
-logDetails(user);
-
-// logName({
-//   name: "Satyam",
+// let user: UserType = {
+//   firstName: "satyam",
+//   //   lastName: "upadhyay",
 //   age: 20,
-// });
+// };
 
-type userType = {
-  name: string;
-  age: number;
-};
+// logDetails(user);
 
-type admin = userType & { role: "admin" };
+// // logName({
+// //   name: "Satyam",
+// //   age: 20,
+// // });
+
+// type userType = {
+//   name: string;
+//   age: number;
+// };
+
+// type admin = userType & { role: "admin" };
